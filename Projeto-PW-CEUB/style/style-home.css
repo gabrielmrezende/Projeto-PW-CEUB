@@ -1,0 +1,39 @@
+/* MAIN */
+.home {
+  min-height: 80vh;
+  display: grid;
+  align-items: center;
+  max-width: 270rem; /* Define uma largura máxima para a seção (ajuste conforme necessário) */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 12rem 10rem 2rem 0.1rem;
+  grid-template-columns: repeat(auto-fit, minmax(38rem, 4fr));
+}
+
+.home .content {
+  /* max-width: 60rem; */
+  position: relative;
+  z-index: 2;
+}
+
+.home .img-home {
+  width: 10rem;
+}
+
+.heading a h3 {
+  color: rgb(0, 0, 0);
+  font-size: 3.2rem;
+  margin: 0;
+  padding-left: 10.5rem;
+  text-decoration: underline;
+}
+
+.heading a h3:hover {
+  color: blue;
+  font-size: 3.7rem;
+}
+
+.briefing {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,40 @@
+.review .box-conteiner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1rem;
+}
+
+.review .box-conteiner .box {
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.review .box-conteiner .box img {
+  height: 20rem;
+  width: 0 1rem;
+  border-radius: 100%;
+}
+
+.review .box-conteiner .box p {
+  font-size: 1.7rem;
+  line-height: 1.8;
+  padding: 2rem 0;
+}
+
+.user {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review .box-conteiner .box h3 {
+  padding: 1rem 0;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.review .box-conteiner .box .stars i {
+  font-size: 3.5rem;
+  color: black;
+}

@@ -1,0 +1,80 @@
+.blog {
+  max-width: 270rem; /* Define uma largura máxima para a seção (ajuste conforme necessário) */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 2rem; /* Opcional: adiciona um pouco de espaço nas laterais */
+}
+
+.heading {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.blog .box-conteiner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.2rem;
+}
+
+.blog .box-conteiner .box {
+  padding: 5rem;
+  text-align: center;
+  border: var(--border);
+  background: #ccc;
+}
+
+.blog .box-conteiner .box img {
+  height: 18rem;
+  width: 24rem;
+  border-radius: 1rem;
+}
+
+.blog .box-conteiner .box h3 {
+  color: black;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.blog .box-conteiner .box h3 a {
+  text-decoration: none;
+  color: black;
+}
+
+.blog .box-conteiner .box h3 a:hover {
+  text-decoration: underline;
+}
+
+.blog .box-conteiner .box p {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 0.5rem 0;
+}
+
+.blog .box-conteiner .box .price span {
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  font-weight: 300;
+}
+
+.blog .box-conteiner .box:hover {
+  /* background: #bbbaba; */
+  box-shadow: 0rem 0rem 11px 0px;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 4rem;
+  font-size: 1.8rem;
+  color: #fff;
+  background: black;
+  border-radius: 3rem;
+}
+
+.btn:hover {
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+}

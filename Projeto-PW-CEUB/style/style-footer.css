@@ -1,0 +1,142 @@
+/* FOOTER */
+footer {
+  background: linear-gradient(to bottom, #d9d9d9, #8e8d8db4);
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  text-align: center;
+}
+
+footer .conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem 7%;
+}
+
+footer .footer-titulo {
+  font-size: 1.6rem;
+  font-weight: 200;
+  margin: 2rem 0;
+  letter-spacing: 0.4rem;
+}
+
+footer h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  padding-top: 2rem;
+  text-decoration: underline;
+}
+
+/* FALE CONOSCO FOOTER */
+.fale-conosco {
+  display: inline; /* Permite centralizar o bloco */
+  text-align: left; /* Alinha o conteúdo interno à esquerda */
+  max-width: 50rem; /* Define uma largura máxima para o bloco centralizado */
+  margin: 0 auto; /* Centraliza o bloco na página */
+  padding-left: 0 2rem; /* Espaçamento interno lateral */
+}
+
+.fale-conosco h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.fale-conosco div {
+  display: flex;
+  align-items: center; /* Alinha ícone e texto horizontalmente */
+  gap: 0.5rem; /* Espaço entre ícone e texto */
+  padding: 1rem 0; /* Espaçamento interno vertical */
+}
+
+.fale-conosco div ion-icon {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.fale-conosco a {
+  font-size: 1.6rem;
+  color: #006fff;
+}
+
+/* ENDEREÇO FOOTER */
+.endereco {
+  text-align: left; /* Alinha o conteúdo interno à esquerda */
+  max-width: 50rem; /* Define uma largura máxima para o bloco centralizado */
+  margin-top: 2.2rem; /* Centraliza o bloco na página */
+  padding-left: 0 2rem; /* Espaçamento interno lateral */
+}
+
+.endereco h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.endereco p {
+  font-size: 2.7rem;
+}
+
+/* REDES SOCIAIS FOOTER */
+.redes-sociais {
+  text-align: left; /* Alinha o conteúdo interno à esquerda */
+  max-width: 50rem; /* Define uma largura máxima para o bloco centralizado */
+  margin-top: 2.2rem; /* Centraliza o bloco na página */
+  padding-left: 0 2rem; /* Espaçamento interno lateral */
+}
+
+.redes-sociais h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.redes-sociais div a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* MAPA */
+footer .mapa {
+  display: flexbox; /* Mantém o comportamento de bloco ajustado */
+}
+
+footer .mapa iframe {
+  width: 700px; /* Mantido do original */
+  height: 350px; /* Mantido do original */
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom p {
+  color: #454545;
+  font-weight: 400;
+  margin-top: 1.5rem;
+  font-size: 1.7rem;
+}
+
+.logo-footer {
+  width: 4rem;
+  height: 4rem;
+}
+
+.logo-footer-facebook {
+  width: 6rem;
+  height: 4rem;
+}
+
+.integrantes h2 {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+
+.integrantes .turma {
+  font-size: 2.8rem;
+}
+
+.integrantes p {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}

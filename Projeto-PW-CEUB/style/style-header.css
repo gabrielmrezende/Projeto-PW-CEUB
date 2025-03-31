@@ -1,0 +1,107 @@
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.8rem 1%;
+  border-bottom: var(--border);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: linear-gradient(to bottom, #d9d9d9, #8e8d8d);
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+/* Contêiner para a logo (imagem + texto) */
+header .logo-container {
+  display: flex;
+  flex-direction: row; /* Garante alinhamento horizontal */
+  align-items: center; /* Centraliza verticalmente */
+  gap: 0.5rem; /* Espaço entre a imagem e o texto */
+  margin-right: 2rem; /* Espaço entre a logo e o nav */
+}
+
+/* Div para a imagem */
+header .logo-image img {
+  height: 6.3rem; /* Tamanho da imagem */
+  width: auto; /* Mantém a proporção */
+}
+
+/* Div para o texto */
+header .logo-text h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-shadow: 0.2rem 0.2rem 0.3rem rgba(0 0 0 / 30%);
+  font-size: 3rem; /* Tamanho do texto */
+  margin: 0; /* Remove margens padrão do h1 */
+}
+
+header h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-shadow: 0.2rem 0.2rem 0.3rem rgba(0 0 0 / 30%);
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+header nav a {
+  margin: 0 2.7rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: black;
+}
+
+header nav a:hover {
+  padding: 0.5rem 1.5rem;
+  color: white;
+  border-bottom: 0.1rem black;
+  background-color: black;
+  border-radius: 2.5rem;
+  letter-spacing: 0.1rem;
+  transition-duration: 1s 0.3s;
+}
+
+/* ÍCONES DO HEADER */
+header .icons {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+header .icons div {
+  margin-left: 2rem;
+}
+
+/* Caixa de Pesquisa */
+header .search-box {
+  display: flex;
+  align-items: center;
+  background-color: #ffffffc9; /* Fundo branco para destacar */
+  border-radius: 2rem; /* Bordas arredondadas */
+  padding: 0.5rem 1rem; /* Espaçamento interno */
+  box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.2); /* Sombra leve */
+}
+
+header .search-box input {
+  border: none; /* Remove borda padrão */
+  background: none; /* Sem fundo adicional */
+  font-size: 1.6rem; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+  width: 18rem; /* Largura inicial do campo */
+  padding: 0.5rem; /* Espaçamento interno */
+}
+
+header .search-box input:focus {
+  outline: none; /* Remove contorno ao focar */
+}
+
+header .search-box ion-icon {
+  font-size: 2rem; /* Tamanho do ícone */
+  color: #333; /* Cor do ícone */
+  cursor: pointer;
+}
+
+header .search-box ion-icon:hover {
+  color: #000; /* Cor ao passar o mouse */
+}

@@ -1,0 +1,72 @@
+.heading {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.bicicleta {
+  max-width: 270rem; /* Define uma largura máxima para a seção (ajuste conforme necessário) */
+  margin: 0 10rem; /* Centraliza horizontalmente */
+  padding: 2rem; /* Opcional: adiciona um pouco de espaço nas laterais */
+}
+
+.bicicleta .box-conteiner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
+  gap: 3rem;
+}
+
+.bicicleta .box-conteiner .box {
+  padding: 2.8rem 0;
+  text-align: center;
+  background: #ccc;
+  border-radius: 2rem;
+}
+
+.bicicleta .box-conteiner .box img {
+  height: 25rem;
+  width: 28rem;
+  border-radius: 1rem;
+}
+
+.bicicleta .box-conteiner .box h3 {
+  color: black;
+  font-size: 2.7rem;
+  padding: 1rem 0;
+}
+
+.bicicleta .box-conteiner .box .price {
+  color: black;
+  font-weight: 500;
+  font-size: 3.4rem;
+  padding: 0.5rem 0;
+}
+
+.bicicleta .box-conteiner .box .price span {
+  font-size: 1.8rem;
+  text-decoration: line-through;
+  font-weight: 300;
+}
+
+.bicicleta .box-conteiner .box:hover {
+  background: #bbbaba;
+  box-shadow: 0rem 0rem 11px 0px;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 4rem;
+  font-size: 1.8rem;
+  color: #fff;
+  background: black;
+  border-radius: 3rem;
+}
+
+.btn:hover {
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+}
